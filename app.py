@@ -5,7 +5,6 @@ import time
 import dotenv
 import os
 
-
 dotenv.load_dotenv()
 
 host = os.getenv('REDIS_HOST')
